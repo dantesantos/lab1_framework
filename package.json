@@ -1,0 +1,20 @@
+{
+  "name": "lab1_framework",
+  "version": "1.0.0",
+  "description": "Lab1 related to Frameworks class",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dantesantos/lab1_framework.git"
+  },
+  "author": "Dante Santos / Gagandeep Kaur / Thuong Tran / Dhruvi Tank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dantesantos/lab1_framework/issues"
+  },
+  "homepage": "https://github.com/dantesantos/lab1_framework#readme"
+}
