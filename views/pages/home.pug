@@ -2,6 +2,20 @@ extends ../layouts/main.pug
 block content
     h1#my-unique-id  Content detailing our routes
 
-    p.intro-text(data-attr = "route1") Route 1 is the main page
+    p.intro-text(data-attr = "route1") Route 1 is the home page
     p.intro-text(data-attr = "route2") Route 2 is the about page
-    p.intro-text(data-attr = "route3") Route 3 is the contact page      
+    p.intro-text(data-attr = "route3") Route 3 is the contact page  
+
+    table(style='width:100%', border='1')
+  tr
+    th Id
+    th Name
+    th Age
+  tr
+    td 001
+    td Adam
+    td 25
+  tr
+    td 002
+    td rahul
+    td 27    
