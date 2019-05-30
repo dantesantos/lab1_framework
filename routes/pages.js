@@ -1,15 +1,12 @@
 const router = require('express').Router();
 
-router.get('/', (request, response) => {
-    response.send(`Welcome to our very plain site.`);
-});
+const PagesController = require('../controllers/pagesController');
 
-router.get('/about', (request, response) => {
-    response.send(`This is the about page.`);
-});
+//our routes
+router.get('/', PagesController.show);
 
-router.get('/contact', (request, response) => {
-    response.send(`This is the contact page.`);
-});
+router.get('/about', PagesController.show);
+
+router.get('/contact', PagesController.show);
 
 module.exports = router;
